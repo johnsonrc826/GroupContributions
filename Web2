@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Join couples pooling resources to build generational wealth. Choose a tier and grow your investments." />
+  <title>PCI Power Couple Investments</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-[#F9FAFB] text-[#1F2937]">
+
+  <!-- Hero Section -->
+  <header class="text-center py-20 px-6 bg-gradient-to-br from-[#5D5FFD] to-[#FF5F6D] text-white">
+    <h1 class="text-4xl font-bold mb-4">Pooling Resources, Amplifying Returns</h1>
+    <p class="text-xl mb-6">Join couples and partners turning small, steady deposits into generational wealth.</p>
+    <a href="#tiers" class="bg-white text-[#5D5FFD] px-6 py-3 rounded-full font-bold shadow-lg">Explore Tiers</a>
+  </header>
+
+  <!-- How It Works -->
+  <section class="max-w-4xl mx-auto py-16 px-6">
+    <h2 class="text-2xl font-bold mb-8 text-center">How It Works</h2>
+    <ol class="space-y-6">
+      <li><strong>1. Define a Goal:</strong> Decide what your pool is for—home, trip, college, legacy.</li>
+      <li><strong>2. Create Your Pool:</strong> Start a fund with 2–10 members.</li>
+      <li><strong>3. Deposit & Grow:</strong> Auto-debit on the 1st each month into diversified investments.</li>
+      <li><strong>4. Track Performance:</strong> See ROI and contributions over time.</li>
+      <li><strong>5. Withdraw or Reinvest:</strong> Capped withdrawals ensure sustainability.</li>
+    </ol>
+  </section>
+
+  <!-- Tiers -->
+  <section id="tiers" class="bg-white py-16 px-6">
+    <h2 class="text-2xl font-bold text-center mb-8">Choose Your Tier</h2>
+    <div class="max-w-5xl mx-auto grid md:grid-cols-3 gap-6">
+      <div class="p-6 border rounded-lg shadow-sm text-center">
+        <h3 class="text-xl font-bold mb-2">Starter – $50/mo</h3>
+        <ul class="text-sm mb-4 space-y-1">
+          <li>✔️ Growth fund access</li>
+          <li>✔️ Live dashboard</li>
+          <li>✔️ 10% withdrawal cap</li>
+        </ul>
+        <a href="signup.html?tier=starter" class="bg-[#5D5FFD] text-white px-4 py-2 rounded">Join Starter</a>
+      </div>
+
+      <div class="p-6 border rounded-lg shadow-md text-center bg-[#F3F4F6]">
+        <h3 class="text-xl font-bold mb-2">Builder – $100/mo</h3>
+        <ul class="text-sm mb-4 space-y-1">
+          <li>✔️ All Starter perks</li>
+          <li>✔️ Strategy call each quarter</li>
+          <li>✔️ 15% withdrawal cap</li>
+        </ul>
+        <a href="signup.html?tier=builder" class="bg-[#5D5FFD] text-white px-4 py-2 rounded">Join Builder</a>
+      </div>
+
+      <div class="p-6 border rounded-lg shadow-sm text-center">
+        <h3 class="text-xl font-bold mb-2">Legacy – $250/mo</h3>
+        <ul class="text-sm mb-4 space-y-1">
+          <li>✔️ All Builder perks</li>
+          <li>✔️ Dedicated coach</li>
+          <li>✔️ 20% withdrawal cap</li>
+        </ul>
+        <a href="signup.html?tier=legacy" class="bg-[#5D5FFD] text-white px-4 py-2 rounded">Join Legacy</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fund Summary -->
+  <section class="max-w-4xl mx-auto py-16 px-6 text-center">
+    <h2 class="text-2xl font-bold mb-4">The PCI Growth Fund</h2>
+    <p class="text-gray-700">Our fund blends 60% global equities, 30% bonds, and 10% alternatives. Rebalanced semi-annually, targeting 6–8% net annual returns. Withdrawals are capped to encourage long-term compounding.</p>
+  </section>
+
+  <!-- CTA Footer -->
+  <footer class="text-center py-10 bg-[#1F2937] text-white">
+    <p class="mb-4 font-bold">Ready to invest with purpose?</p>
+    <a href="signup.html" class="bg-[#FF5F6D] px-5 py-3 rounded-full font-bold">Get Started</a>
+    <p class="mt-4 text-sm">&copy; 2025 PCI Power Couple Investments</p>
+  </footer>
+
+</body>
+</html>
